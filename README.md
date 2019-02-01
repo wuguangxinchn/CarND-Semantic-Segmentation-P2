@@ -27,9 +27,9 @@ python main.py
 ## Implementation 
 #### Network design 
 The code downloads a pre-trained VGG16 model and extract the outputs of certain layers, based on these outputs I created the rest of the network (in lines 62~91) which consists of: 
-* 1x1 convolution layers * 3
-* upsample layers *3 
-* skip connection layers  *3   
+* 1x1 convolution layer * 3
+* upsample layer * 3 
+* skip connection layer * 2   
 
 ## Result 
 For training the model I have tried the epochs with number 10, 20 and 50. 
